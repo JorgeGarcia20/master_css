@@ -1,0 +1,40 @@
+body{
+  background-color: #ccc;
+  /*
+  background-image: url(img/fondo.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  con este estilo el fondo no se mueve se queda estatico
+  background-attachment: fixed;*/
+  color: #000000;
+  text-align: justify;
+  text-indent: 20px;
+  /*
+  word-spacing: 10px;
+  letter-spacing: 5px;*/
+}
+
+#caja{
+  border: 5px solid black;
+  padding: 10px;
+  background-color: rgb(94, 131, 212);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  /*text-decoration: line-through;*/
+  vertical-align: top;
+
+}
+
+h2 {
+  color: red;
+  background: white;
+  background-image: url(img/patron1.jpg);
+  border: 2px solid black;
+}
+
+p{
+  font-size: 20px;
+}

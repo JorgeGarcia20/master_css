@@ -1,0 +1,56 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+/*Selecciona el primer hijo(elemento-etiqueta) y aplica el estilo*/
+ul li:first-child {
+  color: blue;
+  font-weight: bold;
+}
+
+/*Selecciona el hijo(elemento-etiqueta) que se indique y aplica el estilo*/
+ul li:nth-child(2) {
+  color:purple;
+  font-weight: bold;
+}
+
+/*Selecciona el ultimo hijo(elemento-etiqueta) y aplica el estilo*/
+ul li:last-child {
+  color: yellow;
+  font-weight: bold;
+}
+
+/*Le da un color a un link */
+#ruta-google:link {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+/*Si el link ha sido abierto cambiara de color */
+#ruta-google:visited {
+  color: green;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Si el mouse pasa sobre el elemento cambiara de color*/
+#ruta-google:hover{
+  color: blue;
+}
+
+/*Si el link esta activo*/
+#ruta-google:active {
+  color: salmon;
+  font-weight: bold;
+}
+
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  margin-top: 10px;
+}
+
+/*Al estar en el input cambiara de color y borde*/
+input[type="text"]:focus {
+  border: 5px dashed green;
+}
